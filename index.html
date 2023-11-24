@@ -3,13 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bootstrap-template</title>
+        <title>Bool Dashboard</title>
 
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 
         <!-- CSS -->
         <link rel="stylesheet" href="./css/style.css">
+
+        <!-- font-awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
        <header>
@@ -28,14 +31,19 @@
                     </div>
 
                     <div class="col h-100">
-                        <div class="box h-100">
-                            BARRA
+                        <div class="box h-100 d-flex align-items-center">
+                            <div class="w-100">
+                                <span class="input-group-text pt-0 pb-0">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <input type="text" class="form-control shadow-none" id="exampleFormControlInput1" placeholder="Prova a cercare: Lezioni di Laravel">
+                                </span>
+                            </div>
                         </div>
                     </div>
 
                     <div class="col-auto h-100">
-                        <div class="box h-100">
-                            CONTENUTO
+                        <div class="box h-100 d-flex align-items-center">
+                            <i class="fa-solid fa-list-ul"></i>
                         </div>
                     </div>
                 </div>

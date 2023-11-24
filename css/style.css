@@ -16,6 +16,16 @@ header .container-fluid {
     height: 60px;
 }
 
+header .container-fluid .row .col .box .w-100 .input-group-text {
+    background-color: #E9ECEF;
+}
+
+
+header .container-fluid .row .col .box .w-100 input {
+    background-color: #E9ECEF;
+    border: 0;
+}
+
 /* 
     MAIN
 */
