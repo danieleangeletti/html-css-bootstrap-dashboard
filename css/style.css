@@ -1,0 +1,24 @@
+/* 
+    GENERAL
+*/
+.container-fluid {
+    border: 1px dashed black;
+}
+
+.box {
+    border: 1px dashed black;
+}
+
+/* 
+    HEADER
+*/
+header .container-fluid {
+    height: 50px;
+}
+
+/* 
+    MAIN
+*/
+main .container-fluid {
+    height: calc(100vh - 50px);
+}
