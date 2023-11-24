@@ -12,6 +12,10 @@
 /* 
     HEADER
 */
+header {
+    background-color: #F8F9FA;
+}
+
 header .container-fluid {
     height: 60px;
 }
@@ -24,6 +28,10 @@ header .container-fluid .row .col .box .w-100 .input-group-text {
 header .container-fluid .row .col .box .w-100 input {
     background-color: #E9ECEF;
     border: 0;
+}
+
+#bell {
+    color: #FF8F00;
 }
 
 /* 
