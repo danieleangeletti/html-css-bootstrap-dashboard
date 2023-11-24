@@ -22,3 +22,7 @@ header .container-fluid {
 main .container-fluid {
     height: calc(100vh - 50px);
 }
+
+.prossime-classi, .faq, .list-todo, .graph-todo {
+    border: 1px dashed black;
+}
