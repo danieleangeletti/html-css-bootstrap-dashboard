@@ -9,6 +9,19 @@
     border: 1px dashed black;
 }
 
+.my-badge {
+    font-size: 0.68em;
+    border-radius: 16px;
+}
+
+.my-text-bg-dark-blue {
+    background-color: #165BBA;
+}
+
+p {
+    font-size: 0.9em;
+}
+
 /* 
     HEADER
 */
@@ -43,4 +56,8 @@ main .container-fluid {
 
 .prossime-classi, .faq, .list-todo, .graph-todo {
     border: 1px dashed black;
+}
+
+#quotation-marks {
+    font-size: 0.8em;
 }
