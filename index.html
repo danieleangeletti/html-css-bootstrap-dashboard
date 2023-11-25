@@ -18,7 +18,7 @@
        <header>
             <div class="container-fluid">
                 <div class="row h-100 align-items-center">
-                    <div class="col-lg-1 col-2 h-75 p-0 bg-white">
+                    <div class="col-lg-2 col-1 h-75 bg-white">
                         <a href="">
                             <div class="box h-100 d-none d-lg-flex align-items-center">
                                 <img class="w-100 pe-2" src="./img/logo.svg" alt="logo">
@@ -56,17 +56,63 @@
        <main>
             <div class="container-fluid">
                 <div class="row h-100">
-                    <div class="col-1 h-100 p-0">
-                        <div class="box h-100">
-                            CONTENUTO
-                        </div>
-                    </div>
+                    <aside class="col-lg-2 col-1 h-100">
+                        <nav class="box h-100 d-flex flex-column justify-content-between">
+                            <div>
+                                <ul class="list-group">
+                                    <li class="list-group-item border-0 ps-0 pe-0">
+                                        <div class="d-flex justify-content-center">
+                                            <div class="house-container">
+                                                <i class="fa-solid fa-house"></i>
+                                            </div>
 
-                    <div class="col h-100 p-0 overflow-y-auto">
+                                            <span class="d-none d-lg-inline">Home</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="list-group-item border-0 ps-0 pe-0">
+                                        <div class="d-flex justify-content-center">
+                                            <div class="chart-container">
+                                                <i class="fa-solid fa-chart-simple"></i>
+                                            </div>
+
+                                            <span class="d-none d-lg-inline" >Stats</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="list-group-item border-0 ps-0 pe-0">
+                                        <div class="d-flex justify-content-center">
+                                            <div class="signal-container">
+                                                <i class="fa-solid fa-signal"></i>
+                                            </div>
+
+                                            <span class="d-none d-lg-inline">Signals</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <ul class="list-group">
+                                    <li class="list-group-item border-0">
+                                        <div class="d-flex justify-content-center">
+                                            <div class="gear-container">
+                                                <i class="fa-solid fa-gear"></i>
+                                            </div>
+                                                
+                                            <span class="d-none d-lg-inline" >Admin</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </aside>
+
+                    <div class="col h-100 overflow-y-auto">
                         <div class="box h-100">
                             <div class="row bg-primary">
-                                <div class="col-lg-6 col-md-4 col-sm-12 col-12 pe-0">
-                                    <div class="box h-100 ps-3 pt-3 pb-3">
+                                <div class="col-lg-6 col-md-4 col-sm-12 col-12">
+                                    <div class="box h-100 pt-3 pb-3">
                                         <div class="d-flex align-items-center">
                                             <h3 class="text-white">
                                                 Boolean
@@ -86,8 +132,8 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-12 p-md-0 pe-md-1">
-                                    <div class="box ps-3 pt-3 pb-3">
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                                    <div class="box pt-3 pb-3">
                                         <div>
                                             <p class="text-white m-0">
                                                 Studenti online negli ultimi 30 minuti
@@ -102,13 +148,13 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-2 col-md-4 col-sm-12 col-12 p-md-0 order-first order-md-0">
-                                    <div class="box ps-3 pt-3 pb-3 h-100 d-flex justify-content-lg-start justify-content-md-center align-items-center">
+                                <div class="col-lg-2 col-md-4 col-sm-12 col-12 order-first order-md-0">
+                                    <div class="box pt-3 pb-3 h-100 d-flex justify-content-lg-start justify-content-md-center align-items-center">
                                         <span class="text-white">
                                             Nuovo studente 
                                         </span>
 
-                                        <div class="d-flex justify-content-center align-items-center plus-container p-3 ms-1">
+                                        <div class="d-flex justify-content-center align-items-center plus-container p-3 ms-2">
                                             <i class="fa-solid fa-plus text-white"></i>
                                         </div>
                                     </div>
