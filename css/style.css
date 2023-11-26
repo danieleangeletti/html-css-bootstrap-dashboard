@@ -22,6 +22,23 @@ p, span {
     font-size: 0.9em;
 }
 
+.bg-aside-top {
+    background-color: #041E34;
+}
+
+.bg-aside-bottom {
+    background-color: #13293F;
+}
+
+.bg-aside-bottom-with-gradient {
+    background: linear-gradient(to bottom, #13293F 0%, #041E34 50%);
+}
+
+.skew-c {
+    height: 100px;
+    background: linear-gradient(to left bottom, #041E34, 50%, #13293F 50%);
+}
+
 /* 
     HEADER
 */
