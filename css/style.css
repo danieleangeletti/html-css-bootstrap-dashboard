@@ -18,7 +18,7 @@
     background-color: #165BBA;
 }
 
-p, span {
+p, span, table {
     font-size: 0.9em;
 }
 
@@ -89,4 +89,21 @@ main .container-fluid {
     height: 24px;
     border: 1px solid white;
     border-radius: 4px;
+}
+
+.prossime-classi-card-header {
+    padding: 0.5rem;
+}
+
+.prossime-classi-table thead tr th:first-child {
+    width: 50%;
+}
+
+/* 
+    RESPONSIVE
+*/
+@media screen and (max-width: 767px) {
+    .prossime-classi-table thead tr th:first-child {
+        width: 30%;
+    }
 }
