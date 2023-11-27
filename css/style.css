@@ -18,7 +18,11 @@
     background-color: #165BBA;
 }
 
-p, span, table {
+#new-student {
+    font-size: 0.9em;
+}
+
+p, table {
     font-size: 0.9em;
 }
 
@@ -37,6 +41,32 @@ p, span, table {
 .skew-c {
     height: 100px;
     background: linear-gradient(to left bottom, #041E34, 50%, #13293F 50%);
+}
+
+.code-container {
+    width: 24px;
+    height: 24px;
+    background-color: #F26551;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.code-container i {
+    line-height: 24px;
+    color: white;
+}
+
+.pen-container, .trash-container {
+    width: 24px;
+    height: 24px;
+    color: #687179;
+    border: 1px solid #687179;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.pen-container i, .trash-container i {
+    line-height: 24px;
 }
 
 /* 
