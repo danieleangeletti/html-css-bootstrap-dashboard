@@ -121,12 +121,16 @@ main .container-fluid {
     border-radius: 4px;
 }
 
-.prossime-classi-card-header {
+.prossime-classi-card-header, .faq-card-header {
     padding: 0.5rem;
 }
 
 .prossime-classi-table thead tr th:first-child {
     width: 50%;
+}
+
+.my-accordion-button:focus {
+    color: blue;
 }
 
 /* 
