@@ -126,6 +126,22 @@ main .container-fluid {
     border-radius: 4px;
 }
 
+#plus {
+    text-decoration: none;
+}
+
+#plus i {
+    color: white;
+}
+
+#plus:hover div {
+    background-color: white;
+}
+
+#plus:hover i {
+    color: rgba(var(--bs-primary-rgb),var(--bs-bg-opacity));
+}
+
 .prossime-classi-card-header, .faq-card-header {
     padding: 0.5rem;
 }
