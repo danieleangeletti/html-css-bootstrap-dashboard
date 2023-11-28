@@ -1,14 +1,6 @@
 /* 
     GENERAL
 */
-.container-fluid {
-    border: 1px dashed black;
-}
-
-.box {
-    border: 1px dashed black;
-}
-
 .my-badge {
     font-size: 0.68em;
     border-radius: 16px;
@@ -69,6 +61,14 @@ p, table {
     line-height: 24px;
 }
 
+.my-padding-top {
+    padding-top: calc(var(--bs-gutter-x) * .5);
+}
+
+.my-padding-bottom {
+    padding-bottom: calc(var(--bs-gutter-x) * .5);
+}
+
 /* 
     HEADER
 */
@@ -104,10 +104,6 @@ main .container-fluid {
 .house-container, .chart-container, .signal-container, .gear-container {
     width: 24px;
     height: 24px;
-}
-
-.prossime-classi, .faq, .list-todo, .graph-todo {
-    border: 1px dashed black;
 }
 
 #quotation-marks {
