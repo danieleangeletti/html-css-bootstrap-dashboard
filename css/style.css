@@ -175,6 +175,6 @@ main .container-fluid {
 
 @media screen and (max-width: 767px) {
     .prossime-classi-table thead tr th:first-child {
-        width: 30%;
+        width: 60%;
     }
 }
