@@ -69,6 +69,15 @@ p, table {
     padding-bottom: calc(var(--bs-gutter-x) * .5);
 }
 
+.my-a {
+    color: white;
+    text-decoration: none;
+}
+
+.my-a:hover div {
+    background-color: #838E9A;
+}
+
 /* 
     HEADER
 */
