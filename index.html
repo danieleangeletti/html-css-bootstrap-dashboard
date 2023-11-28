@@ -181,11 +181,101 @@
                                                 Nuovo studente 
                                             </span>
 
-                                            <button id="plus" class="p-0 border-0 bg-primary" href="">
+                                            <button id="plus" class="p-0 border-0 bg-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                                                 <div class="d-flex justify-content-center align-items-center plus-container p-3 ms-2">
                                                     <i class="fa-solid fa-plus"></i>
                                                 </div>
                                             </button>
+
+                                            <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                                <div class="offcanvas-header">
+                                                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                                </div>
+
+                                                <div class="offcanvas-body">
+                                                    <div>
+                                                        <form>
+                                                            <div class="row">
+                                                                <div class="col-6 my-padding-bottom">
+                                                                    <div class="form-group">
+                                                                        <label class="mb-1" for="formGroupExampleInput">Nome</label>
+                                                                        <input type="text" class="form-control" id="formGroupExampleInput">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-6 my-padding-bottom">
+                                                                    <div class="form-group">
+                                                                        <label class="mb-1" for="formGroupExampleInput">Cognome</label>
+                                                                        <input type="text" class="form-control" id="formGroupExampleInput">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-6 my-padding-bottom">
+                                                                    <div class="form-group">
+                                                                        <label class="mb-1" for="formGroupExampleInput">Email</label>
+                                                                        <input type="email" class="form-control" id="formGroupExampleInput">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-6 my-padding-bottom">
+                                                                    <div class="form-group">
+                                                                        <label class="mb-1" for="formGroupExampleInput">Password</label>
+                                                                        <input type="password" class="form-control" id="formGroupExampleInput">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-12 my-padding-bottom">
+                                                                    <div class="form-group">
+                                                                        <label class="mb-1" for="formGroupExampleInput">Indirizzo</label>
+                                                                        <input type="text" class="form-control" id="formGroupExampleInput">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-6 my-padding-bottom">
+                                                                    <div class="form-group">
+                                                                        <label class="mb-1" for="formGroupExampleInput">Città</label>
+                                                                        <input type="text" class="form-control" id="formGroupExampleInput">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-4 my-padding-bottom">
+                                                                    <div class="form-group">
+                                                                        <label class="mb-1" for="formGroupExampleInput">Stato</label>
+                                                                        <input type="text" class="form-control" id="formGroupExampleInput">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-2 my-padding-bottom">
+                                                                    <div class="form-group">
+                                                                        <label class="mb-1" for="formGroupExampleInput">CAP</label>
+                                                                        <input type="text" class="form-control" id="formGroupExampleInput">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-12 my-padding-bottom">
+                                                                    <div class="form-group">
+                                                                        <label class="mb-1" for="formGroupExampleInput">Foto</label>
+                                                                        <input type="text" class="form-control" id="formGroupExampleInput">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-12 my-padding-bottom">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label" for="defaultCheck1">Seleziona per proseguire</label>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-12 my-padding-bottom">
+                                                                    <button type="button" class="btn btn-primary">Salva</button>
+                                                                    <button type="reset" class="btn btn-warning">Svuota</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

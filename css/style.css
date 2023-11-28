@@ -161,6 +161,12 @@ main .container-fluid {
 /* 
     RESPONSIVE
 */
+@media screen and (max-width: 991px) {
+    .offcanvas {
+        width: 100% !important;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .prossime-classi-table thead tr th:first-child {
         width: 30%;
